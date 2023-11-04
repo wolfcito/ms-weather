@@ -1,4 +1,4 @@
-package solutions.mundovirtual.controller;
+package solutions.mundovirtual.infraestructure.controller;
 
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -9,6 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
+import solutions.mundovirtual.infraestructure.controller.HealthController;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

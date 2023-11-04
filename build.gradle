@@ -23,8 +23,8 @@ allprojects {
 dependencies {
     implementation project.ext.springbootweb
     testImplementation project.ext.springboottest
+    implementation project(':weather')
 
-    implementation project(':experience')
 }
 
 tasks.named('test') {
