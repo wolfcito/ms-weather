@@ -20,7 +20,7 @@ final class WeatherControllerTest {
 	private InMemoryWeatherRepository service;
 
 	@Test
-	public void getWeather() {
+	void getWeather() {
 		Weather weatherMock = new Weather();
 		weatherMock.setMinTemperature(15);
 		weatherMock.setMaxTemperature(30);
